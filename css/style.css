@@ -1,0 +1,90 @@
+@font-face{
+    font-family: IRANSans;
+    src: url('../fonts/IRANSans/woff2/IRANSansWeb.woff2');
+}
+/********************Tag Selectors***************************/
+body{
+    direction: rtl;
+    background: url('../images/cooking2.jpg') no-repeat fixed;
+    background-size: cover;
+    margin: 0;
+    font-family: IRANSans;
+}
+/********************Class Selectors*************************/
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.img-desc{
+    width: 293.33px;
+    float: left;
+    margin: 60px 0 0 0;
+    padding: 0 20px;
+}
+.img-desc > h2{
+    color: #f19a3e;
+}
+.img-desc > img{
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.img-desc > p{
+    color: #615e5d;
+}
+.main-container{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;  
+    color: #fcfcf8; 
+}
+.main-container h1{
+    margin: 60px 0 0 0; 
+}
+.main-container p{
+    margin: 0;
+}
+.top-bar{
+    height: 80px;
+    background-color: black;
+}
+.top-container{
+    margin: 0px auto;
+    height: 100%;
+    width: 1200px;
+    color: white;
+}
+.top-container > div{
+    float: right;
+    width: 310px;
+    height: 100%;
+}
+.top-container div.top-mid-container{
+    width: 580px;
+    text-align: center;
+}
+.top-heading{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 80px;
+    font-size: 40px;
+    float: right;
+}
+.top-left-container{
+    position: relative;
+}
+.top-left-container img{
+    float: left;
+    margin: 20px 10px;
+}
+.top-mid-container li{
+    float: right;
+    line-height: 80px;
+    margin: 0px 20px;
+}
+.top-mid-container ul{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
